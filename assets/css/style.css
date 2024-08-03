@@ -57,6 +57,19 @@ body{
     font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--text-color);
 }
+::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-bg-color);
+    border-radius: 50rem;
+  }
+
 
 a{
  text-decoration: none;
@@ -256,6 +269,7 @@ main {
 .main__content2 iframe {
     width: 100%;
     aspect-ratio: 16/9;
+    
   }
   
 .technologies {
