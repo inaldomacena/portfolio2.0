@@ -5,6 +5,8 @@
 
 const toggleTheme= document.getElementById("toggleTheme");
 const rootHtml = document.documentElement
+const accordionHeaders = document.querySelectorAll(".accordion__header");
+const menuLinks = document.querySelectorAll(".menu__link");
 
 
 
